@@ -1,0 +1,26 @@
+Exploration through Source Code of various sites
+ 
+ https://www.envelopments.com :
+I saw that there were many tabs shown in the source code.
+A few of the widely, almost always used code were the div, li, ul, p, and script function.
+I also saw that in the debugger tab, which was probably linked to their code to help debug the written code, the return,
+function, and var functions were used.
+
+http://www.amnh.org/explore/amnh.tv/(watch)/learning-at-the-museum/new-explorer-app-from-amnh
+This website was of the museum's explorer app and the code was honestly really neat and I thought it was really cool to look
+through the website. Underneath there were also a few websites 
+
+http://www.bxscience.edu
+http://christinawallace.com
+
+They use the google analytics thing which Christina later showed us. It is a short piece of code that you enter in to your code 
+which allows google to tell you everything about your webpage and who and what your audience looks for in your webpage.
+It really teaches us that we should be careful of what we put online and that you are being recorded even if you are incognito 
+browsing. She showed us her website and people who went on it.
+What was really interesting was that there was a recording of the time, day, place, and literally everything about the person and
+how they got to her website(the source to finding her page, ex.google [that's kind of creepy]).
+Since her homepage was first, most people started off on her homepage and then they went to the next tab which was about her
+speaking. Here we saw that there were a lot of views on her speaking page and how putting speaking as the next tab made people
+want to view it next. She then told us that this would be something we should think about when targeting what people wanted to
+know. In contrast, there were also many people who left her website right after the home page so she said that it was probably
+ideal for her to give them as much information about her as possible on her home page so that they get the information they need.
