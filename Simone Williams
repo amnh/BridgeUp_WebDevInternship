@@ -1,3 +1,8 @@
 I felt really smart looking through the source code because I understood about half of the code that I was reading.
 Websites I looked at included big name ones like Google and Facebook, whose source code was very confusing. Everything
-was jumbled together and was uncomprehensible. The smaller name 
+was jumbled together and was uncomprehensible. The smaller name websistes like the ones in the article had very basic layouts and 
+coding for their page that was very simple to understand. One thing that popped up frequently that I had no idea what it was
+was metadata. From looking at the code on my school's website, I learned that they use a bit of Google analytics code
+to track info about the people who visit their page. A lot of other websites apparently use Google analytics to track the info
+that people graviatate towards to, how long they stay on the page, etc. The source codes for the websites frequently combine 
+the page for javascript and css.
