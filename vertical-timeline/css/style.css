@@ -4,6 +4,7 @@ Primary style
 
 -------------------------------- */
 html * {
+  /* seems to be a language for browsers*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -17,8 +18,8 @@ html * {
 body {
   font-size: 100%;
   font-family: "Droid Serif", serif;
-  color: #7f8c97;
-  background-color: #e9f0f5;
+  color: yellow;
+  background-color: #C0C0C0;
 }
 
 a {
@@ -28,12 +29,17 @@ a {
 }
 
 img {
-  max-width: 100%;
+  max-width: 200%;
 }
 
 h1, h2 {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
+  font-size: 50px;
+}
+h1{
+  background-image: url("http://static01.nyt.com/images/2016/01/19/science/19DINO/19DINO-master675.jpg");
+  background-size: 100%;
 }
 
 /* -------------------------------- 
@@ -43,8 +49,8 @@ Modules - reusable parts of our design
 -------------------------------- */
 .cd-container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
-  width: 90%;
-  max-width: 1170px;
+  width: 100%;
+  max-width: 1300px;
   margin: 0 auto;
 }
 .cd-container::after {
@@ -70,8 +76,9 @@ header h1 {
   font-size: 18px;
   font-size: 1.125rem;
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 1200px) {
   header {
+    /*screen width*/
     height: 300px;
     line-height: 300px;
   }
@@ -95,7 +102,7 @@ header h1 {
   left: 18px;
   height: 100%;
   width: 4px;
-  background: #d7e4ed;
+  background: blue;
 }
 @media only screen and (min-width: 1170px) {
   #cd-timeline {
@@ -142,8 +149,8 @@ header h1 {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
-}
+  box-shadow: 0 0 0 4px blue, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+} /* Circle around the image*/
 .cd-timeline-img img {
   display: block;
   width: 24px;
@@ -155,14 +162,14 @@ header h1 {
   margin-top: -12px;
 }
 .cd-timeline-img.cd-picture {
-  background: #75ce66;
+  background: blue;
 }
-.cd-timeline-img.cd-movie {
-  background: #c03b44;
+/*.cd-timeline-img.cd-movie {
+  background: purple;
 }
 .cd-timeline-img.cd-location {
   background: #f0ca45;
-}
+}*/
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
     width: 60px;
@@ -173,9 +180,9 @@ header h1 {
     -webkit-transform: translateZ(0);
     -webkit-backface-visibility: hidden;
   }
-  .cssanimations .cd-timeline-img.is-hidden {
+  /*.cssanimations .cd-timeline-img.is-hidden {
     visibility: hidden;
-  }
+  }*/
   .cssanimations .cd-timeline-img.bounce-in {
     visibility: visible;
     -webkit-animation: cd-bounce-1 0.6s;
@@ -244,7 +251,7 @@ header h1 {
 .cd-timeline-content {
   position: relative;
   margin-left: 60px;
-  background: white;
+  background: #CCCCCC;
   border-radius: 0.25em;
   padding: 1em;
   box-shadow: 0 3px 0 #d7e4ed;
@@ -271,12 +278,12 @@ header h1 {
 .cd-timeline-content .cd-read-more {
   float: right;
   padding: .8em 1em;
-  background: #acb7c0;
+  background: red;
   color: white;
   border-radius: 0.25em;
 }
 .no-touch .cd-timeline-content .cd-read-more:hover {
-  background-color: #bac4cb;
+  background-color: red;
 }
 .cd-timeline-content .cd-date {
   float: left;
