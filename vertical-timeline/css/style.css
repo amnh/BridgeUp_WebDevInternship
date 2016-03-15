@@ -36,10 +36,12 @@ h1, h2 {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 50px;
+  
 }
 h1{
   background-image: url("http://static01.nyt.com/images/2016/01/19/science/19DINO/19DINO-master675.jpg");
   background-size: 100%;
+  
 }
 
 /* -------------------------------- 
@@ -69,10 +71,10 @@ header {
   height: 200px;
   line-height: 200px;
   text-align: center;
-  background: #303e49;
+  /*background: #303e49;*/
 }
 header h1 {
-  color: white;
+  color: black;
   font-size: 18px;
   font-size: 1.125rem;
 }
