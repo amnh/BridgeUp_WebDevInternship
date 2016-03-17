@@ -1,3 +1,4 @@
+@@ -1,492 +0,0 @@
 /* -------------------------------- 
 
 Primary style
@@ -18,17 +19,12 @@ html * {
 body {
   font-size: 100%;
   font-family: "Droid Serif", serif;
-<<<<<<< Updated upstream:vertical-timeline/css/style.css
   color: yellow;
   background-color: #C0C0C0;
-=======
-  color: #7f8c97; /*color of the font*/
-  background-color: #e2d7a2; /*color of the webpage; original color:#e9f0f5*/;
->>>>>>> Stashed changes:vertical-timeline/css/stylejenny.css
 }
 
 a {
-  color: #ffffff;
+  color: #acb7c0;
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
 }
@@ -76,19 +72,11 @@ header {
   height: 200px;
   line-height: 200px;
   text-align: center;
-<<<<<<< Updated upstream:vertical-timeline/css/style.css
   /*background: #303e49;*/
 }
 header h1 {
   color: black;
   font-size: 18px;
-=======
-  background: #8b0000; /*change the color of the header; original color:#303e49*/
-}
-header h1 {
-  color: white;
-  font-size: 30px;
->>>>>>> Stashed changes:vertical-timeline/css/stylejenny.css
   font-size: 1.125rem;
 }
 @media only screen and (min-width: 1200px) {
@@ -117,11 +105,7 @@ header h1 {
   left: 18px;
   height: 100%;
   width: 4px;
-<<<<<<< Updated upstream:vertical-timeline/css/style.css
   background: blue;
-=======
-  background: #ffffff; /*original color:#d7e4ed*/
->>>>>>> Stashed changes:vertical-timeline/css/stylejenny.css
 }
 @media only screen and (min-width: 1170px) {
   #cd-timeline {
@@ -165,32 +149,22 @@ header h1 {
   position: absolute;
   top: 0;
   left: 0;
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-<<<<<<< Updated upstream:vertical-timeline/css/style.css
   box-shadow: 0 0 0 4px blue, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 } /* Circle around the image*/
-=======
-  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
-}
-/*the .cd-timeline-img changes the sizes and locations of ALL of the icons*/
->>>>>>> Stashed changes:vertical-timeline/css/stylejenny.css
 .cd-timeline-img img {
   display: block;
-  width: 50px;
-  height: 50px;
+  width: 24px;
+  height: 24px;
   position: relative;
-  left: 30%; /*moves all of the icons toward the left as you decrease value*/
-  top: 30%; /*moves all icons upward as you decrease value*/
+  left: 50%;
+  top: 50%;
   margin-left: -12px;
   margin-top: -12px;
 }
-
-/*changes the sizes of the green bubbles if you add other elements like "left:" or "right:"*/
-/*changes the color of the inside of the bubbles */
 .cd-timeline-img.cd-picture {
-<<<<<<< Updated upstream:vertical-timeline/css/style.css
   background: blue;
 }
 /*.cd-timeline-img.cd-movie {
@@ -199,18 +173,6 @@ header h1 {
 .cd-timeline-img.cd-location {
   background: #f0ca45;
 }*/
-=======
-  background: #d0be67; /*original color:#75ce66*/;
-}
-.cd-timeline-img.cd-movie {
-  background: #009300; /*original color:#c03b44*/;
-}
-.cd-timeline-img.cd-location {
-  background: #f0ca45; /*original color:#f0ca45*/
-}
-/*the height and width here thanges the size of the green bubbles in the middle of the page,
-it contains the icons*/
->>>>>>> Stashed changes:vertical-timeline/css/stylejenny.css
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
     width: 60px;
