@@ -1,5 +1,4 @@
-/*sublime note, use command r to close the at button that pops up*/
-
+@@ -1,492 +0,0 @@
 /* -------------------------------- 
 
 Primary style
@@ -17,35 +16,44 @@ html * {
   box-sizing: border-box;
 }
 
-body { /*for the stuff in the div contents*/
+body {
   font-size: 100%;
-  font-family: "Droid Serif", serif;  
-  color: #7f8c97; /*color of the font*/
-  background-color: #e2d7a2; /*color of the webpage, the beige color; original color:#e9f0f5*/;
+  font-family: "Droid Serif", serif;
+  color: yellow;
+  background-color: #C0C0C0;
 }
 
 a {
-  color: #ffffff;
+  color: #acb7c0;
   text-decoration: none;
-  font-family: "Open Sans", sans-serif; /*stuff for the buttons that don't exist anymore*/
+  font-family: "Open Sans", sans-serif;
 }
 
 img {
-  max-width: 200%; /*size of the icons in the circles*/
+  max-width: 200%;
 }
 
-h1, h2 { /*header at the top of the page and headers in the information boxes*/
+h1, h2 {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 50px;
   
 }
+h1{
+  background-image: url("http://static01.nyt.com/images/2016/01/19/science/19DINO/19DINO-master675.jpg");
+  background-size: 100%;
+  
+}
 
+/* -------------------------------- 
+
+Modules - reusable parts of our design
+
+-------------------------------- */
 .cd-container {
-  /* this class is used to give a max-width to the element it is applied to, and
-  center it horizontally when it reaches that max-width */
-  width: 90%;
-  max-width: 1170px;
+  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+  width: 100%;
+  max-width: 1300px;
   margin: 0 auto;
 }
 .cd-container::after {
@@ -67,9 +75,9 @@ header {
   /*background: #303e49;*/
 }
 header h1 {
-  color: white;
-  font-size: 66px;
-  background: #8b0000; /*change the color of the page title; original color:#303e49*/
+  color: black;
+  font-size: 18px;
+  font-size: 1.125rem;
 }
 @media only screen and (min-width: 1200px) {
   header {
@@ -93,11 +101,11 @@ header h1 {
   /* this is the vertical line */
   content: '';
   position: absolute;
-  top: 0; /*the little extention above the first circle*/
-  left: 18px; /*doesn't really change much*/
-  height: 120%; /*use this to change the vertical length of the line*/
+  top: 0;
+  left: 18px;
+  height: 100%;
   width: 4px;
-  background: #8b0000; /*original color:#d7e4ed*/
+  background: blue;
 }
 @media only screen and (min-width: 1170px) {
   #cd-timeline {
@@ -141,37 +149,30 @@ header h1 {
   position: absolute;
   top: 0;
   left: 0;
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   box-shadow: 0 0 0 4px blue, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 } /* Circle around the image*/
-
-/*the .cd-timeline-img changes the sizes and locations of ALL of the icons*/
 .cd-timeline-img img {
   display: block;
-  width: 50px;
-  height: 50px;
+  width: 24px;
+  height: 24px;
   position: relative;
-  left: 30%; /*moves all of the icons toward the left as you decrease value*/
-  top: 30%; /*moves all icons upward as you decrease value*/
+  left: 50%;
+  top: 50%;
   margin-left: -12px;
   margin-top: -12px;
 }
-
-/*changes the sizes of the green bubbles if you add other elements like "left:" or "right:"*/
-/*changes the color of the inside of the bubbles */
 .cd-timeline-img.cd-picture {
-  background: #75ce66; /*original color:#d0be67*/;
+  background: blue;
 }
-.cd-timeline-img.cd-movie {
-  background: #009300; /*original color:#c03b44*/;
+/*.cd-timeline-img.cd-movie {
+  background: purple;
 }
 .cd-timeline-img.cd-location {
-  background: #f0ca45; /*original color:#f0ca45*/
-}
-/*the height and width here thanges the size of the green bubbles in the middle of the page,
-it contains the icons*/
+  background: #f0ca45;
+}*/
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
     width: 60px;
@@ -253,7 +254,7 @@ it contains the icons*/
 .cd-timeline-content {
   position: relative;
   margin-left: 60px;
-  background: white; /*the color of the box or information boxes*/
+  background: #CCCCCC;
   border-radius: 0.25em;
   padding: 1em;
   box-shadow: 0 3px 0 #d7e4ed;
@@ -277,12 +278,10 @@ it contains the icons*/
   margin: 1em 0;
   line-height: 1.6;
 }
-
-/*the read-more button that was deleted*/
 .cd-timeline-content .cd-read-more {
   float: right;
   padding: .8em 1em;
-  background: red; 
+  background: red;
   color: white;
   border-radius: 0.25em;
 }
