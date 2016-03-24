@@ -25,7 +25,7 @@ body { /*for the stuff in the div contents*/
 }
 
 a {
-  color: #ffffff;
+  color: black;
   text-decoration: none;
   font-family: "Open Sans", sans-serif; /*stuff for the buttons that don't exist anymore*/
 }
@@ -37,7 +37,8 @@ img {
 h1, h2 { /*header at the top of the page and headers in the information boxes*/
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 50px;\
+  color:black;
   
 }
 
