@@ -331,11 +331,11 @@ font-size: 25px;
     padding: 1.6em;
     width: 45%;
   }
-  .cd-timeline-content::before {
+  .cd-timeline-content::before { /*the div info box has transparent borders so the triangle can show*/
     top: 24px;
     left: 100%;
     border-color: transparent;
-    border-left-color: white;
+    border-left-color: white; /*color of the little triangle*/
   }
   .cd-timeline-content .cd-read-more {
     float: left;
@@ -354,7 +354,7 @@ font-size: 25px;
   .cd-timeline-block:nth-child(even) .cd-timeline-content::before {
     top: 24px;
     left: auto;
-    right: 100%;
+    right: 100%; /*for the triangles on the right side of the timeline*/
     border-color: transparent;
     border-right-color: white;
   }
