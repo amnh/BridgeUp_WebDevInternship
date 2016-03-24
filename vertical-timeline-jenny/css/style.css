@@ -21,7 +21,7 @@ body { /*for the stuff in the div contents*/
   font-size: 100%;
   font-family: "Droid Serif", serif;  
   color: #7f8c97; /*color of the font*/
-  background-color: #e2d7a2; /*color of the webpage, the beige color; original color:#e9f0f5*/;
+  background-color: #f3efe0; /*color of the webpage, the beige color #e2d7a2; original color:#e9f0f5*/;
 }
 
 a {
@@ -44,8 +44,8 @@ h1, h2 { /*header at the top of the page and headers in the information boxes*/
 .cd-container {
   /* this class is used to give a max-width to the element it is applied to, and
   center it horizontally when it reaches that max-width */
-  width: 90%;
-  max-width: 1170px;
+  width: 90%; /*width of the div boxes; best = 90%*/
+  max-width: 1170px; /*how far the boxes are allowed to stretch, responsive design; best = 1170px*/
   margin: 0 auto;
 }
 .cd-container::after {
@@ -79,23 +79,23 @@ header h1 {
   }
   header h1 {
     font-size: 24px;
-    font-size: 1.5rem;
+    font-size: 3rem; /*use this to change font size not the line above*/
   }
 }
 
 #cd-timeline {
   position: relative;
   padding: 2em 0;
-  margin-top: 2em;
+  margin-top: 4em;
   margin-bottom: 2em;
 }
 #cd-timeline::before {
   /* this is the vertical line */
   content: '';
   position: absolute;
-  top: 0; /*the little extention above the first circle*/
+  top: 0; /*the little extention above the first circle on the vertical line*/
   left: 18px; /*doesn't really change much*/
-  height: 120%; /*use this to change the vertical length of the line*/
+  height: 100%; /*use this to change the vertical length of the line*/
   width: 4px;
   background: #8b0000; /*original color:#d7e4ed*/
 }
@@ -144,9 +144,15 @@ header h1 {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  box-shadow: 0 0 0 4px blue, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
-} /* Circle around the image*/
+  box-shadow: 0 0 0 4px blue, inset 0 5px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05); 
+  /*4px is the thickness of the circle*/
+  /*inset is the color inside of the circle followed by the 
+  alpha = .08 which shows the opacity of the inset*/
+  /*3px is the movement downward of a shadow that can appear underneath and 4 px is the radius
+  of the shadow*/
+}
 
+/* Circle around the image*/
 /*the .cd-timeline-img changes the sizes and locations of ALL of the icons*/
 .cd-timeline-img img {
   display: block;
@@ -253,7 +259,7 @@ it contains the icons*/
 .cd-timeline-content {
   position: relative;
   margin-left: 60px;
-  background: white; /*the color of the box or information boxes*/
+  background: white; /*the color of the div box or information boxes*/
   border-radius: 0.25em;
   padding: 1em;
   box-shadow: 0 3px 0 #d7e4ed;
@@ -267,7 +273,7 @@ it contains the icons*/
   color: #303e49;
 }
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-  font-size: 13px;
+font-size: 25px;
   font-size: 0.8125rem;
 }
 .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
