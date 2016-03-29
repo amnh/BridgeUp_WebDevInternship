@@ -24,3 +24,4 @@ jQuery(document).ready(function($){
 		});
 	}
 });
+//hiding and showing elements allows you to change which text is visible or not//
