@@ -145,7 +145,7 @@ header h1 {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  box-shadow: 0 0 0 4px blue, inset 0 5px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05); 
+  box-shadow: 0 0 0 4px #8b0000, inset 0 5px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05); 
   /*4px is the thickness of the circle*/
   /*inset is the color inside of the circle followed by the 
   alpha = .08 which shows the opacity of the inset*/
@@ -169,7 +169,7 @@ header h1 {
 /*changes the sizes of the green bubbles if you add other elements like "left:" or "right:"*/
 /*changes the color of the inside of the bubbles */
 .cd-timeline-img.cd-picture {
-  background: #75ce66; /*original color:#d0be67*/;
+  background: #303e49; /*original color:#d0be67*/;
 }
 .cd-timeline-img.cd-movie {
   background: #009300; /*original color:#c03b44*/;
@@ -498,4 +498,8 @@ font-size: 25px;
     -o-transform: translateX(0);
     transform: translateX(0);
   }
+.meat{
+  width : 20px;
+  height: 20px;
+}
 }
