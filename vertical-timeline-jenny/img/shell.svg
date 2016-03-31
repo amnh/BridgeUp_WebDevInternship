@@ -1,0 +1,12 @@
+<?xml version="1.0"?><svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <ellipse rx="1" id="svg_3" cy="243" cx="169" stroke-width="5" stroke="#000000" fill="#FF0000"/>
+  <ellipse id="svg_4" cy="222" cx="128" stroke-width="5" stroke="#000000" fill="#FF0000"/>
+  <ellipse id="svg_6" cy="150" cx="64" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="#ffffaa"/>
+  <ellipse id="svg_9" cy="91" cx="65" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#f9f990" fill="#ffffaa"/>
+  <ellipse id="svg_10" cy="72" cx="108" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#f9f990" fill="#ffffaa"/>
+  <path id="svg_14" d="m163,178.5l-1,16.5l1,26l2,33l5,29l6,20l13,30l14,24l12,15l16,19l22,17l19,10l16,6l18.5,4l17.5,1l14,-1l14,-4l12,-4l12,-5l14,-7l15,-12l9,-7l11,-12l13,-16l10,-16l9,-20l4,-9l6,-19l4,-14l5,-21l4,-33l1,-40l-1,-24l-44,53l-57,-45l-26,40l-62.5,-36.5l4.5,37.5l-37,-48l-36,43l-7.5,-41.5l-33.5,34.5l-18,-23.5z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="2" stroke="#f4e1b7" fill="#fff3d8"/>
+ </g>
+</svg>
