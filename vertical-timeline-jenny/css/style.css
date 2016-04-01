@@ -5,6 +5,18 @@
 Primary style
 
 -------------------------------- */
+@font-face {
+    font-family: 'dinosaurregular';
+    src: url('dinosaur-webfont.eot');
+    src: url('dinosaur-webfont.eot?#iefix') format('embedded-opentype'),
+         url('dinosaur-webfont.woff2') format('woff2'),
+         url('dinosaur-webfont.woff') format('woff'),
+         url('dinosaur-webfont.ttf') format('truetype'),
+         url('dinosaur-webfont.svg#dinosaurregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html * {
   /* seems to be a language for browsers*/
   -webkit-font-smoothing: antialiased;
@@ -19,15 +31,15 @@ html * {
 
 body { /*for the stuff in the div contents*/
   font-size: 100%;
-  font-family: "Droid Serif", serif;  
+  font-family: "Droid Serif", serif;
   color: #7f8c97; /*color of the font*/
   background-color: #f3efe0; /*color of the webpage, the beige color #e2d7a2; original color:#e9f0f5*/;
 }
 
-a {
-  color: gray;
+a { /*styling for the ones with links*/
+  color: #aaafff;
   text-decoration: none;
-  font-family: "Open Sans", sans-serif; /*stuff for the buttons that don't exist anymore*/
+  font-family: "Open Sans", sans-serif;
 }
 
 img {
@@ -35,13 +47,12 @@ img {
 }
 
 h1, h2 { /*header at the top of the page and headers in the information boxes*/
-  font-family: "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 50px;\
   color:black;
-  
 }
 
+}
 .cd-container {
   /* this class is used to give a max-width to the element it is applied to, and
   center it horizontally when it reaches that max-width */
@@ -61,6 +72,7 @@ h1, h2 { /*header at the top of the page and headers in the information boxes*/
 Main components 
 
 -------------------------------- */
+
 header {
   height: 200px;
   line-height: 200px;
@@ -289,7 +301,7 @@ font-size: 25px;
 .cd-timeline-content .cd-read-more {
   float: right;
   padding: .8em 1em;
-  background: red; 
+  background: #aaafff; 
   color: white;
   border-radius: 0.25em;
 }
