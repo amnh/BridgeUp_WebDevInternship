@@ -126,11 +126,13 @@ header h1 {
 .cd-timeline-block {
   position: relative;
   margin: 2em 0;
+  float: none;
 }
 .cd-timeline-block:after {
   content: "";
   display: table;
   clear: both;
+  margin-bottom: 350px;
 }
 .cd-timeline-block:first-child {
   margin-top: 0;
@@ -347,7 +349,7 @@ font-size: 25px;
     top: 24px;
     left: 100%;
     border-color: transparent;
-    border-left-color: white; /*color of the little triangle*/
+    border-left-color: white; /*color of the little triangle*/ 
   }
   .cd-timeline-content .cd-read-more {
     float: left;
@@ -362,6 +364,7 @@ font-size: 25px;
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content {
     float: right;
+    margin-top:5px;
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content::before {
     top: 24px;
@@ -377,6 +380,8 @@ font-size: 25px;
     left: auto;
     right: 122%;
     text-align: right;
+    height: 550px;
+    width:550px;
   }
   .cssanimations .cd-timeline-content.is-hidden {
     visibility: hidden;
