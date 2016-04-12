@@ -95,7 +95,9 @@ header h1 {
     font-size: 3rem; /*use this to change font size not the line above*/
   }
 }
-
+p{
+  color: black;
+}
 #cd-timeline {
   position: relative;
   padding: 2em 0;
@@ -515,7 +517,3 @@ font-size: 25px;
     -o-transform: translateX(0);
     transform: translateX(0);
   }
-.meat{
-  width : 20px;
-  height: 20px;
-}
