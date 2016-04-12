@@ -183,7 +183,7 @@ header h1 {
 /*changes the sizes of the green bubbles if you add other elements like "left:" or "right:"*/
 /*changes the color of the inside of the bubbles */
 .cd-timeline-img.cd-picture {
-  background: #303e49; /*original color:#d0be67*/;
+  background: #f3efe0;; /*original color:#d0be67*/;
 }
 .cd-timeline-img.cd-movie {
   background: #009300; /*original color:#c03b44*/;
