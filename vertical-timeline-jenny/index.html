@@ -19,23 +19,6 @@
 						font-family: 'dinosaurregular';
 						color: red;
 					}
-					div.fixed {
-						position: fixed;
-						top: 0;
-						border: 3px solid #9A3334;
-						background-color: #9A3334;
-						z-index: 2;  
-						width: 100%;
-					}
-					span.content-title{
-						font-family: 'dinosaurregular';
-						color: #217C7E;
-						font-size: 30px;
-					}
-					a.hrefs{
-						font-family: sans-serif;
-						color: #3399FF;
-					}
 		</style>
 		<!-- In the style tag, z-index is basically saying that you want this layer to be on the top of other items. This helped us because now we can click the button anytime we wanted unlike before when it would hide underneath other items. -->
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
@@ -43,12 +26,16 @@
 </head>
 
 <body>
-
 <div class="fixed">
-<span class="content-title">Titanosaur Contents</span><br/>
-	<a href="#one" class="hrefs" >Top</a><br/>
-	<a href="#two" class="hrefs">200 Million Years Ago</a><br/>
-	<a href="#three" class="hrefs">550 A.D.</a><br/>
+<span class="content-title">Titanosaur Contents</span><br/><br/>
+	<table border="1" style="width:50%">
+  <tr>
+    <td>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</td>
+    <td><a href="#one" class="hrefs">Back to Top</a></td>
+    <td><a href="#two" class="hrefs">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;200 Million Years Ago</a></td>
+    <td><a href="#three" class="hrefs">550 A.D.</a></td>
+</tr>
+</table>
 </span>
 </div>
 
@@ -63,7 +50,11 @@
 			</div> <!-- cd-timeline-img -->
 
 			<div class="cd-timeline-content">
+<<<<<<< HEAD
 				<a name="one">Read more <h2>About 270 Million Years Ago</h2></a>
+=======
+				<a name="one"><h2>About 270 Million Years Ago</h2></a>
+>>>>>>> origin/master
 				<p> Pangaea formed. </p>
 				<a href="http://www.amnh.org/explore/ology/ology-cards/255-pangaea" class="cd-read-more">Read more</a>
 				<br> <br> <br> </p>
@@ -112,7 +103,7 @@
 
 	<div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-picture">
-				<img src="img/ptero.png" alt="Picture">
+				<img src="img/ptero.png" alt="Picture" height="100%" width="100%">
 			</div> <!-- cd-timeline-img -->
 
 			<div class="cd-timeline-content">
