@@ -92,7 +92,8 @@ header h1 {
   }
   header h1 {
     font-size: 24px;
-    font-size: 3rem; /*use this to change font size not the line above*/
+    font-size: 4rem; /*use this to change font size not the line above*/
+    color: #8B0000;
   }
 }
 p{
