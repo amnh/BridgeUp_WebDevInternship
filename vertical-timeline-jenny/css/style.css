@@ -51,6 +51,8 @@ h1, h2 { /*header at the top of the page and headers in the information boxes*/
   font-size: 50px;\
   color:black;
 }
+h1{
+  background-image: url("img/titanosaur.jpeg")
 
 }
 .cd-container {
