@@ -53,10 +53,10 @@ h1, h2 { /*header at the top of the page and headers in the information boxes*/
 }
 
 header{
-   background-image: url("http://dailyscene.com/wp-content/uploads/img.huffingtonpost.comassetscalefit_550_400_noupscale5671d840190000d30078a1bb-6674e43052708150df4aa639104732c60f35d577.jpeg");
+   background-image: url("https://static01.nyt.com/images/2016/01/19/science/19DINO/19DINO-master675.jpg");
    background-size: 100%;
    background-repeat: no-repeat;
-   background-position: center;
+   background-position: top;
    background-attachment: fixed;
 }
 
@@ -101,8 +101,10 @@ header h1 {
   header h1 {
     font-size: 24px;
     font-size: 4rem; /*use this to change font size not the line above*/
-    /*color: #8B0000;*/
-  }
+    color: white;
+    text-align: left;
+    padding:100px 0;
+    
 }
 p{
   color: black;
