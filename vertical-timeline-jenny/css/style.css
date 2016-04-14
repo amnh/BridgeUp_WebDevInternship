@@ -51,10 +51,15 @@ h1, h2 { /*header at the top of the page and headers in the information boxes*/
   font-size: 50px;\
   color:black;
 }
-h1{
-  background-image: url("img/titanosaur.jpeg")
 
+header{
+   background-image: url("http://dailyscene.com/wp-content/uploads/img.huffingtonpost.comassetscalefit_550_400_noupscale5671d840190000d30078a1bb-6674e43052708150df4aa639104732c60f35d577.jpeg");
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
 }
+
 .cd-container {
   /* this class is used to give a max-width to the element it is applied to, and
   center it horizontally when it reaches that max-width */
@@ -80,11 +85,12 @@ header {
   line-height: 200px;
   text-align: center;
   /*background: #303e49;*/
+
 }
 header h1 {
   color: white;
   font-size: 66px;
-  background: #8b0000; /*change the color of the page title; original color:#303e49*/
+  /*background: #8b0000; /*change the color of the page title; original color:#303e49*/
 }
 @media only screen and (min-width: 1200px) {
   header {
@@ -95,7 +101,7 @@ header h1 {
   header h1 {
     font-size: 24px;
     font-size: 4rem; /*use this to change font size not the line above*/
-    color: #8B0000;
+    /*color: #8B0000;*/
   }
 }
 p{
