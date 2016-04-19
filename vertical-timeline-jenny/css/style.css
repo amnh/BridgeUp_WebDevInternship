@@ -385,6 +385,7 @@ font-size: 25px;
     left: 100%;
     border-color: transparent;
     border-left-color: white; /*color of the little triangle*/ 
+    /*border-right-color: #DEB887;*/ /*not useful at all bc it just creates another triange*/
   }
   .cd-timeline-content .cd-read-more {
     float: left;
