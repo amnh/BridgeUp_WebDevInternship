@@ -103,12 +103,19 @@ header h1 {
     font-size: 4rem; /*use this to change font size not the line above*/
     color: white;
     text-align: left;
-    padding:100px 0;
-    
+    padding:100px 0; 
 }
-p{
+
+p {
   color: black;
 }
+
+#dino {
+  background:#DEB887;/*
+  border-right-color: #DEB887;
+  border-left-color: #DEB887; this part of the code didn't work quite as well as I wanted it to*/
+}
+
 div.fixed {
             position: fixed;
             top: 0;
@@ -385,6 +392,7 @@ font-size: 25px;
     left: 100%;
     border-color: transparent;
     border-left-color: white; /*color of the little triangle*/ 
+    /*if you get rid of the above line it only gets rid of the triangles on the left side of the timeline*/
     /*border-right-color: #DEB887;*/ /*not useful at all bc it just creates another triange*/
   }
   .cd-timeline-content .cd-read-more {
@@ -407,7 +415,7 @@ font-size: 25px;
     left: auto;
     right: 100%; /*for the triangles on the right side of the timeline*/
     border-color: transparent;
-    border-right-color: white;
+    border-right-color: white;/*color of the triangles on the right side of the timeline come back*/
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
     float: right;
