@@ -150,7 +150,7 @@ a.hrefs{
   position: absolute;
   top: 0; /*the little extention above the first circle on the vertical line*/
   left: 18px; /*doesn't really change much*/
-  height: 100%; /*use this to change the vertical length of the line*/
+  height: 97%; /*use this to change the vertical length of the line*/
   width: 4px;
   background: #8b0000; /*original color:#d7e4ed*/
 }
@@ -233,7 +233,7 @@ a.hrefs{
 .cd-timeline-img.cd-location {
   background: #f0ca45; /*original color:#f0ca45*/
 }
-/*the height and width here thanges the size of the green bubbles in the middle of the page,
+/*the height and width here changes the size of the green bubbles in the middle of the page,
 it contains the icons*/
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
