@@ -135,9 +135,10 @@ span.content-title{
           }
 a.hrefs{
             font-family: sans-serif;
-            color: #3399FF;
+            color: #ffd480;
             font-size: 20px;
           }
+          
 #cd-timeline {
   position: relative;
   padding: 2em 0;
@@ -174,7 +175,7 @@ a.hrefs{
   content: "";
   display: table;
   clear: both;
-  margin-bottom: 375px;
+  margin-bottom: 350px;
 }
 .cd-timeline-block:first-child {
   margin-top: 0;
