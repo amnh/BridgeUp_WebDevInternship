@@ -115,6 +115,10 @@ p {
   border-right-color: #DEB887;
   border-left-color: #DEB887; this part of the code didn't work quite as well as I wanted it to*/
 }
+img{
+  height: 50%;
+  width: 50%;
+}
 
 div.fixed {
             position: fixed;
@@ -175,7 +179,7 @@ a.hrefs{
   content: "";
   display: table;
   clear: both;
-  margin-bottom: 350px;
+  margin-bottom: 150px;
 }
 .cd-timeline-block:first-child {
   margin-top: 0;
